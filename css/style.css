@@ -1,0 +1,55 @@
+#menu .card-header{
+	font-size: 14px;
+	color: #606162;
+	font-weight: 600;
+	text-align: center;
+}
+
+#menu .card-header::after{
+	background-color: transparent;
+}
+
+#menu .card-footer{
+	color: #FF0004;
+	font-weight: 600;
+	text-align: center;
+	justify-content: center;
+}
+
+#menu .card-footer::before{
+	background-color: transparent;
+}
+
+#menu .card-content img{
+	max-height: 140px;
+}
+#breakfast, 
+#lunch, 
+#espresso,
+#drinks,
+#dessert{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 25% 0;
+	position: relative;
+	margin-bottom: -30px;
+}
+.bg-breakfast{
+	background-image:url(../img/cheesecake.jpg);
+	
+}
+.overlay{
+	position: absolute;
+background-color: rgba(0,0,0,0.70);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
